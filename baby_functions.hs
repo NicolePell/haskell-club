@@ -16,3 +16,5 @@ sumUpAList = sum
 sumListRecursively :: [Int] -> Int
 sumListRecursively [] = 0
 sumListRecursively (x:xs) = x + sumListRecursively xs
+
+divisible_by num divisor = num `mod` divisor == 0
